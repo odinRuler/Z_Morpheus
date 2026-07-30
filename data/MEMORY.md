@@ -1,0 +1,2 @@
+- Uva endpoint: http://localhost:9999/v1 (investment sub-agent)
+- Morpheus endpoint: http://localhost:9998/v1 (medical sub-agent)

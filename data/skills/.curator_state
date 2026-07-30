@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/opt/data/logs/curator/20260727-123000",
+  "last_run_at": "2026-07-27T12:30:00.927481+00:00",
+  "last_run_duration_seconds": 13.965602,
+  "last_run_summary": "auto: no changes; llm: API call failed after 3 retries: HTTP 404: No endpoints found for openrouter/owl-alpha.",
+  "last_run_summary_shown_at": null,
+  "paused": false,
+  "run_count": 9
+}

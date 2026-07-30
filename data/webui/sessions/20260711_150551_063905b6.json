@@ -1,0 +1,129 @@
+{
+  "session_id": "20260711_150551_063905b6",
+  "title": "Domingo Arrêtez aussi job",
+  "workspace": "/workspace",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "model_provider": null,
+  "created_at": 1783782351.8763745,
+  "updated_at": 1783782377.0178237,
+  "pinned": false,
+  "archived": false,
+  "project_id": null,
+  "profile": "default",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "estimated_cost": null,
+  "cache_read_tokens": 0,
+  "cache_write_tokens": 0,
+  "personality": null,
+  "active_stream_id": null,
+  "pending_user_message": null,
+  "pending_attachments": [],
+  "pending_started_at": null,
+  "compression_anchor_visible_idx": null,
+  "compression_anchor_message_key": null,
+  "compression_anchor_summary": null,
+  "pre_compression_snapshot": false,
+  "context_engine": null,
+  "compression_anchor_engine": null,
+  "compression_anchor_mode": null,
+  "compression_anchor_details": {},
+  "context_engine_state": {},
+  "context_length": null,
+  "threshold_tokens": null,
+  "last_prompt_tokens": null,
+  "truncation_watermark": null,
+  "gateway_routing": null,
+  "gateway_routing_history": [],
+  "llm_title_generated": true,
+  "manual_title": false,
+  "parent_session_id": null,
+  "worktree_path": null,
+  "worktree_branch": null,
+  "worktree_repo_root": null,
+  "worktree_created_at": null,
+  "is_cli_session": true,
+  "source_tag": "telegram",
+  "raw_source": "telegram",
+  "session_source": "messaging",
+  "source_label": "Telegram",
+  "read_only": false,
+  "enabled_toolsets": null,
+  "composer_draft": {},
+  "message_count": 7,
+  "messages": [
+    {
+      "role": "user",
+      "content": "[Domingo Me] Arrêtez aussi le job des rêves",
+      "timestamp": 1783782353.2876136
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1783782376.0159402,
+      "tool_calls": [
+        {
+          "id": "call-44003b6b-ad9c-4d05-8445-6c2071ac2b0a",
+          "call_id": "call-44003b6b-ad9c-4d05-8445-6c2071ac2b0a",
+          "response_item_id": "fc_call-44003b6b-ad9c-4d05-8445-6c2071ac2b0a",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"action\":\"list\"}"
+          }
+        }
+      ],
+      "reasoning": "I need to stop a cron job called \"job des rêves\" for Domingo Me (Baptiste's father). First, I should list the cron jobs to find the correct job ID, then remove it. Let me use the cronjob tool.\n",
+      "reasoning_content": "I need to stop a cron job called \"job des rêves\" for Domingo Me (Baptiste's father). First, I should list the cron jobs to find the correct job ID, then remove it. Let me use the cronjob tool.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"count\": 2,\n  \"jobs\": [\n    {\n      \"job_id\": \"65572225e79a\",\n      \"name\": \"R\\u00eave du matin\",\n      \"skill\": null,\n      \"skills\": [],\n      \"prompt_preview\": \"G\\u00e9n\\u00e8re un dream fragment (80-120 mots maximum) pour commencer la journ\\u00e9e. Th\\u00e8me libre \\u2014 inspir\\u00e9 de l...\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"0 7 * * *\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"telegram:-1003837569372:57\",\n      \"next_run_at\": \"2026-07-12T07:00:00+00:00\",\n      \"last_run_at\": \"2026-07-11T07:00:30.312306+00:00\",\n      \"last_status\": \"ok\",\n      \"last_delivery_error\": null,\n      \"enabled\": true,\n      \"state\": \"scheduled\",\n      \"paused_at\": null,\n      \"paused_reason\": null\n    },\n    {\n      \"job_id\": \"671164ef9041\",\n      \"name\": \"Scan emplois finance Paris/London/NYC Baptiste\",\n      \"skill\": \"baptiste-job-search\",\n      \"skills\": [\n        \"baptiste-job-search\"\n      ],\n      \"prompt_preview\": \"Recherche les derni\\u00e8res offres d'emploi en finance pertinentes pour Baptiste. Suivre imp\\u00e9rativement ...\",\n      \"model\": null,\n      \"provider\": null,\n      \"base_url\": null,\n      \"schedule\": \"0 10 * * *\",\n      \"repeat\": \"forever\",\n      \"deliver\": \"origin\",\n      \"next_run_at\": \"2026-07-12T10:00:00+00:00\",\n      \"last_run_at\": \"2026-07-11T10:06:31.505201+00:00\",\n      \"last_status\": \"ok\",\n      \"last_delivery_error\": null,\n      \"enabled\": false,\n      \"state\": \"paused\",\n      \"paused_at\": \"2026-07-11T10:16:08.049913+00:00\",\n      \"paused_reason\": null\n    }\n  ]\n}",
+      "timestamp": 1783782376.0199287,
+      "tool_call_id": "call-44003b6b-ad9c-4d05-8445-6c2071ac2b0a",
+      "tool_name": "cronjob",
+      "name": "cronjob"
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1783782376.0199287,
+      "tool_calls": [
+        {
+          "id": "call-c2fa9535-303d-460c-8449-b9d50196556f",
+          "call_id": "call-c2fa9535-303d-460c-8449-b9d50196556f",
+          "response_item_id": "fc_call-c2fa9535-303d-460c-8449-b9d50196556f",
+          "type": "function",
+          "function": {
+            "name": "cronjob",
+            "arguments": "{\"job_id\":\"65572225e79a\",\"action\":\"remove\"}"
+          }
+        }
+      ],
+      "reasoning": "I see two jobs: \"Rêve du matin\" (job ID 65572225e79a) and \"Scan emplois finance Paris/London/NYC Baptiste\" (job ID 671164ef9041). The user said \"Arrêtez aussi le job des rêves\" which translates to \"Stop also the dream job\". \"Rêve du matin\" seems to be the dream job (morning dream fragment). The user likely wants to stop that one. Let me remove it.\n\n",
+      "reasoning_content": "I see two jobs: \"Rêve du matin\" (job ID 65572225e79a) and \"Scan emplois finance Paris/London/NYC Baptiste\" (job ID 671164ef9041). The user said \"Arrêtez aussi le job des rêves\" which translates to \"Stop also the dream job\". \"Rêve du matin\" seems to be the dream job (morning dream fragment). The user likely wants to stop that one. Let me remove it.\n\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\n  \"success\": true,\n  \"message\": \"Cron job 'R\\u00eave du matin' removed.\",\n  \"removed_job\": {\n    \"id\": \"65572225e79a\",\n    \"name\": \"R\\u00eave du matin\",\n    \"schedule\": \"0 7 * * *\"\n  }\n}",
+      "timestamp": 1783782376.0199287,
+      "tool_call_id": "call-c2fa9535-303d-460c-8449-b9d50196556f",
+      "tool_name": "cronjob",
+      "name": "cronjob"
+    },
+    {
+      "role": "assistant",
+      "content": "✅ Job « Rêve du matin » arrêté. Vous ne recevrez plus les fragments de rêve chaque matin à 7h. 🚫\n\nAutre chose à arrêter ou à ajuster ?",
+      "timestamp": 1783782376.0767653,
+      "reasoning": "Now respond in French, concise, as per user preferences. Confirm the job is stopped.\n",
+      "reasoning_content": "Now respond in French, concise, as per user preferences. Confirm the job is stopped.\n"
+    },
+    {
+      "role": "session_meta",
+      "content": null,
+      "timestamp": 1783782377.0178237
+    }
+  ],
+  "tool_calls": [],
+  "context_messages": []
+}

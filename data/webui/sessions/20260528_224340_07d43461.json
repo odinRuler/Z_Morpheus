@@ -1,0 +1,121 @@
+{
+  "session_id": "20260528_224340_07d43461",
+  "title": "Celebrating Baptiste's Birthday Today",
+  "workspace": "/workspace",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "model_provider": null,
+  "created_at": 1780008220.7663949,
+  "updated_at": 1780044244.3383985,
+  "pinned": false,
+  "archived": false,
+  "project_id": null,
+  "profile": "default",
+  "input_tokens": 17756,
+  "output_tokens": 228,
+  "estimated_cost": 0.0,
+  "cache_read_tokens": 0,
+  "cache_write_tokens": 0,
+  "personality": null,
+  "active_stream_id": null,
+  "pending_user_message": null,
+  "pending_attachments": [],
+  "pending_started_at": null,
+  "compression_anchor_visible_idx": null,
+  "compression_anchor_message_key": null,
+  "compression_anchor_summary": null,
+  "pre_compression_snapshot": false,
+  "context_engine": null,
+  "compression_anchor_engine": null,
+  "compression_anchor_mode": null,
+  "compression_anchor_details": {},
+  "context_engine_state": {},
+  "context_length": 262144,
+  "threshold_tokens": 183500,
+  "last_prompt_tokens": 17756,
+  "truncation_watermark": null,
+  "gateway_routing": null,
+  "gateway_routing_history": [],
+  "llm_title_generated": false,
+  "parent_session_id": null,
+  "worktree_path": null,
+  "worktree_branch": null,
+  "worktree_repo_root": null,
+  "worktree_created_at": null,
+  "is_cli_session": true,
+  "source_tag": "telegram",
+  "raw_source": "telegram",
+  "session_source": "messaging",
+  "source_label": "Telegram",
+  "read_only": false,
+  "enabled_toolsets": null,
+  "composer_draft": {
+    "text": "",
+    "files": []
+  },
+  "message_count": 5,
+  "messages": [
+    {
+      "role": "user",
+      "content": "[Domingo Me] Ç’est l’anniversaire de Baptiste  aujourd’hui !! 🥳",
+      "timestamp": 1780008236.9564893
+    },
+    {
+      "role": "assistant",
+      "content": "Joyeux anniversaire, Baptiste !! 🎂🥳\n\nJ'espère que ta journée est remplie de bonnes choses, de rires et de moments qui te font sourire. Profite bien de cette journée spéciale !\n\nTu as besoin d'un coup de main pour quoi que ce soit aujourd'hui ? Que ce soit pour organiser quelque chose, prendre un peu de temps pour toi, ou juste discuter... je suis là.",
+      "timestamp": 1780008236.9683785,
+      "reasoning": "Happy birthday to Baptiste! 🎉\n\nSince it's his birthday today, I should acknowledge this and perhaps offer some celebratory sentiment or ask if there's anything specific Baptiste might want or need. I don't have specific details about Baptiste's preferences in memory, but I can keep it warm and supportive.\n\nLet me respond in French since the user is communicating in French.\n",
+      "reasoning_content": "Happy birthday to Baptiste! 🎉\n\nSince it's his birthday today, I should acknowledge this and perhaps offer some celebratory sentiment or ask if there's anything specific Baptiste might want or need. I don't have specific details about Baptiste's preferences in memory, but I can keep it warm and supportive.\n\nLet me respond in French since the user is communicating in French.\n"
+    },
+    {
+      "role": "session_meta",
+      "content": null,
+      "timestamp": 1780008237.0277178
+    },
+    {
+      "role": "user",
+      "content": "quel est ton modele",
+      "timestamp": 1780044244
+    },
+    {
+      "role": "assistant",
+      "content": "Mon modèle actuel est : **nvidia/nemotron-3-super-120b-a12b**  \nFournisseur : **nvidia**  \n\nC'est ce qui est configuré pour cette session. Tu veux savoir quelque chose de spécifique dessus ? 😊",
+      "reasoning": "Okay, the user is asking about my model. Looking at the system message, I see that at the very top it states: \"Model: nvidia/nemotron-3-super-120b-a12b\" and \"Provider: nvidia\". \n\nThis is factual information from my current session configuration. I should provide this directly since it's explicitly stated in the initialization context. No need for tools or clarification - just answer based on what's given.\n\nThe user is Domingo Me (Baptiste) communicating via Telegram, speaking French as noted in memory. But the question is straightforward about my technical specs.\n\nI'll respond in French to match the user's language preference indicated in memory (\"User speaks French\"). Keep it warm and on-brand as Pluton - direct, warm, on his side.\n\n",
+      "finish_reason": "stop",
+      "reasoning_content": "Okay, the user is asking about my model. Looking at the system message, I see that at the very top it states: \"Model: nvidia/nemotron-3-super-120b-a12b\" and \"Provider: nvidia\". \n\nThis is factual information from my current session configuration. I should provide this directly since it's explicitly stated in the initialization context. No need for tools or clarification - just answer based on what's given.\n\nThe user is Domingo Me (Baptiste) communicating via Telegram, speaking French as noted in memory. But the question is straightforward about my technical specs.\n\nI'll respond in French to match the user's language preference indicated in memory (\"User speaks French\"). Keep it warm and on-brand as Pluton - direct, warm, on his side.\n\n",
+      "timestamp": 1780044244,
+      "_turnDuration": 19.986,
+      "_turnTps": 11.4
+    }
+  ],
+  "tool_calls": [],
+  "context_messages": [
+    {
+      "role": "user",
+      "content": "[Domingo Me] Ç’est l’anniversaire de Baptiste  aujourd’hui !! 🥳",
+      "timestamp": 1780008236.9564893
+    },
+    {
+      "role": "assistant",
+      "content": "Joyeux anniversaire, Baptiste !! 🎂🥳\n\nJ'espère que ta journée est remplie de bonnes choses, de rires et de moments qui te font sourire. Profite bien de cette journée spéciale !\n\nTu as besoin d'un coup de main pour quoi que ce soit aujourd'hui ? Que ce soit pour organiser quelque chose, prendre un peu de temps pour toi, ou juste discuter... je suis là.",
+      "timestamp": 1780008236.9683785,
+      "reasoning": "Happy birthday to Baptiste! 🎉\n\nSince it's his birthday today, I should acknowledge this and perhaps offer some celebratory sentiment or ask if there's anything specific Baptiste might want or need. I don't have specific details about Baptiste's preferences in memory, but I can keep it warm and supportive.\n\nLet me respond in French since the user is communicating in French.\n",
+      "reasoning_content": "Happy birthday to Baptiste! 🎉\n\nSince it's his birthday today, I should acknowledge this and perhaps offer some celebratory sentiment or ask if there's anything specific Baptiste might want or need. I don't have specific details about Baptiste's preferences in memory, but I can keep it warm and supportive.\n\nLet me respond in French since the user is communicating in French.\n"
+    },
+    {
+      "role": "session_meta",
+      "content": null,
+      "timestamp": 1780008237.0277178
+    },
+    {
+      "role": "user",
+      "content": "quel est ton modele"
+    },
+    {
+      "role": "assistant",
+      "content": "Mon modèle actuel est : **nvidia/nemotron-3-super-120b-a12b**  \nFournisseur : **nvidia**  \n\nC'est ce qui est configuré pour cette session. Tu veux savoir quelque chose de spécifique dessus ? 😊",
+      "reasoning": "Okay, the user is asking about my model. Looking at the system message, I see that at the very top it states: \"Model: nvidia/nemotron-3-super-120b-a12b\" and \"Provider: nvidia\". \n\nThis is factual information from my current session configuration. I should provide this directly since it's explicitly stated in the initialization context. No need for tools or clarification - just answer based on what's given.\n\nThe user is Domingo Me (Baptiste) communicating via Telegram, speaking French as noted in memory. But the question is straightforward about my technical specs.\n\nI'll respond in French to match the user's language preference indicated in memory (\"User speaks French\"). Keep it warm and on-brand as Pluton - direct, warm, on his side.\n\n",
+      "finish_reason": "stop",
+      "reasoning_content": "Okay, the user is asking about my model. Looking at the system message, I see that at the very top it states: \"Model: nvidia/nemotron-3-super-120b-a12b\" and \"Provider: nvidia\". \n\nThis is factual information from my current session configuration. I should provide this directly since it's explicitly stated in the initialization context. No need for tools or clarification - just answer based on what's given.\n\nThe user is Domingo Me (Baptiste) communicating via Telegram, speaking French as noted in memory. But the question is straightforward about my technical specs.\n\nI'll respond in French to match the user's language preference indicated in memory (\"User speaks French\"). Keep it warm and on-brand as Pluton - direct, warm, on his side.\n\n"
+    }
+  ]
+}

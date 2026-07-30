@@ -1,0 +1,116 @@
+{
+  "session_id": "20260530_235743_8a763f3e",
+  "title": "Feeling trapped in M&A career burnout",
+  "workspace": "/workspace",
+  "model": "nvidia/nemotron-3-super-120b-a12b",
+  "model_provider": null,
+  "created_at": 1780185463.789551,
+  "updated_at": 1780185726.9440212,
+  "pinned": false,
+  "archived": false,
+  "project_id": null,
+  "profile": "default",
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "estimated_cost": null,
+  "cache_read_tokens": 0,
+  "cache_write_tokens": 0,
+  "personality": null,
+  "active_stream_id": null,
+  "pending_user_message": null,
+  "pending_attachments": [],
+  "pending_started_at": null,
+  "compression_anchor_visible_idx": null,
+  "compression_anchor_message_key": null,
+  "compression_anchor_summary": null,
+  "pre_compression_snapshot": false,
+  "context_engine": null,
+  "compression_anchor_engine": null,
+  "compression_anchor_mode": null,
+  "compression_anchor_details": {},
+  "context_engine_state": {},
+  "context_length": null,
+  "threshold_tokens": null,
+  "last_prompt_tokens": null,
+  "truncation_watermark": null,
+  "gateway_routing": null,
+  "gateway_routing_history": [],
+  "llm_title_generated": false,
+  "parent_session_id": null,
+  "worktree_path": null,
+  "worktree_branch": null,
+  "worktree_repo_root": null,
+  "worktree_created_at": null,
+  "is_cli_session": true,
+  "source_tag": "telegram",
+  "raw_source": "telegram",
+  "session_source": "messaging",
+  "source_label": "Telegram",
+  "read_only": false,
+  "enabled_toolsets": null,
+  "composer_draft": {
+    "text": "",
+    "files": []
+  },
+  "message_count": 7,
+  "messages": [
+    {
+      "role": "user",
+      "content": "J’ai l’impression qu’en ce moment j’étouffe et que je suis sur le point de m’écrouler, que les semaines s’enchaînent sans que je n’ai le temps de respirer le week-end.\n\nEt en même temps je me sens bloqué pcq j’ai l’impression que si j’abandonne la voie M&A je tue ma carrière dans l’œuf, du coup j’en viens à espérer que mon corps lâche pour me sortir du dilemme et que le calvaire se finisse. Qu’est ce que je dois faire ?",
+      "timestamp": 1780185478.3477442
+    },
+    {
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1780185478.3716443,
+      "tool_calls": [
+        {
+          "id": "chatcmpl-tool-a4d31e2b00af7f95",
+          "call_id": "chatcmpl-tool-a4d31e2b00af7f95",
+          "response_item_id": "fc_chatcmpl-tool-a4d31e2b00af7f95",
+          "type": "function",
+          "function": {
+            "name": "session_search",
+            "arguments": "{\"query\": \"M&A carrière burnout stress\"}"
+          }
+        }
+      ],
+      "reasoning": "Baptiste is expressing deep distress about feeling overwhelmed and stuck in his M&A career path. He's describing burnout symptoms - feeling suffocated, no time to breathe on weekends, trapped between continuing in M&A (which he fears will kill his career if he abandons) and wishing his body would give out to escape the dilemma.\n\nThis is a serious situation that requires careful handling. As Pluton, I need to:\n1. Acknowledge his pain without minimizing it\n2. Help him see options beyond the false dichotomy he's presenting\n3. Explore practical steps to address immediate burnout while considering longer-term career decisions\n4. Remind him that his well-being matters more than any career path\n5. Suggest concrete actions he can take\n\nI should avoid toxic positivity or platitudes. Instead, I'll validate his feelings, help him reframe the situation, and offer practical next steps.\n\nFirst, let me check if there's any relevant context in his memory or past sessions that might help me understand his situation better.\n",
+      "reasoning_content": "Baptiste is expressing deep distress about feeling overwhelmed and stuck in his M&A career path. He's describing burnout symptoms - feeling suffocated, no time to breathe on weekends, trapped between continuing in M&A (which he fears will kill his career if he abandons) and wishing his body would give out to escape the dilemma.\n\nThis is a serious situation that requires careful handling. As Pluton, I need to:\n1. Acknowledge his pain without minimizing it\n2. Help him see options beyond the false dichotomy he's presenting\n3. Explore practical steps to address immediate burnout while considering longer-term career decisions\n4. Remind him that his well-being matters more than any career path\n5. Suggest concrete actions he can take\n\nI should avoid toxic positivity or platitudes. Instead, I'll validate his feelings, help him reframe the situation, and offer practical next steps.\n\nFirst, let me check if there's any relevant context in his memory or past sessions that might help me understand his situation better.\n"
+    },
+    {
+      "role": "tool",
+      "content": "{\"success\": true, \"mode\": \"discover\", \"query\": \"M&A carrière burnout stress\", \"results\": [], \"count\": 0, \"message\": \"No matching sessions found.\"}",
+      "timestamp": 1780185478.3946052,
+      "tool_call_id": "chatcmpl-tool-a4d31e2b00af7f95",
+      "tool_name": "session_search",
+      "name": "session_search"
+    },
+    {
+      "role": "assistant",
+      "content": "Je sens à quel point tu es dans une pression étouffante, Baptiste. Cette impression de ne jamais pouvoir respirer, même le week-end, et cette peur terrible que lâcher prise en M&A signifie tuer ta carrière… c’est épuisant juste à lire. Et puis cette pensée que seule une crise physique pourrait te sortir du dilemme – c’est un signal d’alarme sérieux que ton système te lance.\n\nAvant de chercher des solutions, j’ai besoin de comprendre un peu mieux où tu en es exactement :\n\n1. **Qu’est-ce qui te retient le plus dans la voie M&A aujourd’hui ?** Est-ce la peur de l’échec, des engagements financiers, une identité professionnelle que tu as construite, ou quelque chose d’autre ?\n2. **Si tu pouvais imaginer une issue immédiate qui ne soit pas “mon corps lâche”, à quoi ressemblerait-elle ?** Même une toute petite chose qui te donnerait un souffle de répit.\n3. **Qu’as-tu déjà essayé pour alléger la charge, même partiellement ?** Parfois on oublie les petites victoires quand on est dans le brouillard.\n\nJe ne vais pas te dire “prends du recul” comme une évidence – je sais que c’est plus compliqué que ça. Mais je peux t’aider à décomposer ce dilemme en morceaux gérables, à explorer des options que tu n’as peut-être pas envisagées (pas forcément quitter M&A du jour au lendemain, mais peut-être ajuster, négocier, explorer des adjacent possibles), et surtout à protéger ton énergie pour que tu puisses prendre une décision depuis un endroit un peu moins désespéré.\n\nPar où aimerais-tu commencer ? Juste vider un peu ton cœur ici, ou tu veux qu’on regarde concrètement ce que tu pourrais faire cette semaine pour reprendre un peu d’air ?",
+      "timestamp": 1780185478.4148626,
+      "reasoning": "Baptiste feels overwhelmed, stuck in M&A path, fears abandoning it will ruin career, hopes his body will break to escape. Need to address both practical career concerns and well-being. First, acknowledge his feelings, then explore options. Should ask clarifying questions about his current situation, but also provide some immediate perspective. Might need to help him reframe the dilemma: not binary (continue M&A vs collapse), but explore alternatives, incremental changes, self-care, possibly other finance roles, or taking a break. However, must avoid being patronizing. Let's start by reflecting back his feelings and asking what he needs most right now: immediate relief or strategic career thinking. Use a gentle tone. Also check memory for any past context about his M&A situation. Use session_search for M&A maybe. Already did, none. Let's check user memory for any preferences. Use memory tool to see if we have stored anything about his career preferences. But we can just respond now. Let's craft a response that validates, then offers to explore options together. We'll ask if he wants to brainstorm alternatives or just vent first. We'll also note that hoping body breaks is a sign of burnout needing attention. We'll suggest small steps to regain control. Let's respond.\n",
+      "reasoning_content": "Baptiste feels overwhelmed, stuck in M&A path, fears abandoning it will ruin career, hopes his body will break to escape. Need to address both practical career concerns and well-being. First, acknowledge his feelings, then explore options. Should ask clarifying questions about his current situation, but also provide some immediate perspective. Might need to help him reframe the dilemma: not binary (continue M&A vs collapse), but explore alternatives, incremental changes, self-care, possibly other finance roles, or taking a break. However, must avoid being patronizing. Let's start by reflecting back his feelings and asking what he needs most right now: immediate relief or strategic career thinking. Use a gentle tone. Also check memory for any past context about his M&A situation. Use session_search for M&A maybe. Already did, none. Let's check user memory for any preferences. Use memory tool to see if we have stored anything about his career preferences. But we can just respond now. Let's craft a response that validates, then offers to explore options together. We'll ask if he wants to brainstorm alternatives or just vent first. We'll also note that hoping body breaks is a sign of burnout needing attention. We'll suggest small steps to regain control. Let's respond.\n"
+    },
+    {
+      "role": "session_meta",
+      "content": null,
+      "timestamp": 1780185478.477024
+    },
+    {
+      "role": "user",
+      "content": "Ce qui me retient surtout c’est que j’ai l’impression que c’est la voie royale pour faire carrière dans la finance, et que si je fais autre chose je me ferme beaucoup de portes, et aussi un peu par égo: si j’abandonne je suis un loser par rapport à mes camarades d’école qui y arrivent.",
+      "timestamp": 1780185726.9288886
+    },
+    {
+      "role": "assistant",
+      "content": "Je reconnais bien là deux pièges classiques dans lesquels on tombe quand on est dans un environnement exigeant comme la finance : le mythe de la « voie royale » qui ferait que tout autre chemin serait un échec, et la comparaison sociale qui transforme nos pairs en juge et bourreau.\n\nCes croyances sont puissantes parce qu’elles contiennent une part de vérité – oui, le M&A ouvre des portes, oui, tes camarades sont dans cette course – mais elles deviennent toxiques quand elles te prennent en otage et te font croire que ton seul choix est entre réussir à tout prix ou être un « loser ».\n\nJe voudrais t’aider à examiner ces idées de façon plus concrète, pas juste comme des vérités absolues.\n\n**Sur la « voie royale » :**\n- Quelles portes spécifiques crains-tu de fermer si tu t’éloignais du M&A pur et dur ? Sont-elles vraiment définitives, ou pourrait-on les rouvrir plus tard avec un profil différent ?\n- Le M&A te forme à des compétences très transférables : analyse financière, modélisation, négociation, gestion de pression, compréhension des enjeux stratégiques. Dans quels autres domaines de la finance (ou même en dehors) ces compétences seraient-elles valorisées ?\n- As-tu déjà vu des gens faire une carrière solide en finance sans être passés exclusivement par le M&A ? Quels chemins ont-ils pris ?\n\n**Sur l’égo et la comparaison :**\n- Quand tu penses à tes camarades qui « y arrivent », qu’est-ce que tu imagines réellement derrière cette apparente réussite ? Sais-tu vraiment quels sont leurs sacrifices, leur niveau de stress, leur satisfaction profonde ?\n- Si tu devais définir toi-même ce qu’est une carrière réussie – pas ce que ton école ou ton milieu attend de toi, mais ce qui donnerait du sens à *ta* vie – quels seraient les critères ?\n- Et si, au lieu de voir ceux qui « réussissent » en M&A comme une mesure de ta valeur, tu les voyais comme des données d’information : qu’est-ce que leurs choix te disent sur ce que *toi* tu veux vraiment ou ne veux pas ?\n\nJe ne te demande pas de répondre à tout ça maintenant – c’est lourd à porter quand on est déjà à bout. Mais ces questions peuvent commencer à dessiner un espace où tu n’es plus coincé entre deux mauvais choix, mais où tu peux envisager des alternatives réelles.\n\nEn attendant, quelle serait la moindre petite chose que tu pourrais faire cette semaine juste pour te prouver à toi-même que tu as encore un peu d’agence sur ta vie ? Pas forcément une décision de carrière, mais quelque chose qui te reconnecte à ce que tu ressens, même cinq minutes : une marche sans écouter de podcast, appeler un ami sans parler de travail, noter trois choses que tu as aimées faire récemment (même si elles semblent insignifiantes).\n\nTu n’as pas à résoudre le dilemme aujourd’hui. Tu as juste besoin de reprendre un souffle suffisamment profond pour pouvoir y réfléchir sans avoir l’impression que tu vas t’écrouler d’ici là. Par où aimerais-tu commencer à récupérer ce souffle ?",
+      "timestamp": 1780185726.9440212,
+      "reasoning": "Baptiste identifie deux blocages principaux : la perception de la voie M&A comme \"voie royale\" pour la carrière en finance (peur de fermer des portes) et l'égo/comparaison sociale (sentiment d'être un loser par rapport à ses camarades). Il se sent coincé entre ces pressions et son bien-être qui se détériore.\n\nJe dois l'aider à explorer ces croyances et à voir s'il existe des alternatives ou des aménagements. Peut-être commencer par remettre en question l'idée de \"voie royale\" et explorer d'autres chemins en finance ou à proximité. Aussi aborder la comparaison sociale qui est toxique.\n\nJe devrais lui poser des questions pour l'amener à réfléchir à ses valeurs réelles, à ce qui compte vraiment pour lui au-delà du prestige ou de la comparaison. Peut-être aussi explorer des scénarios intermédiaires : pas forcément abandonner M&A complètement, mais peut-être réduire la charge, négocier, explorer des rôles connexes.\n\nJe peux aussi suggérer des exercices concrets : lister les compétences acquises en M&A qui sont transférables, explorer d'autres domaines de la finance qui pourraient l'intéresser, ou même des secteurs complètement différents où ces compétences seraient valorisées.\n\nMais avant tout, valider ses sentiments : c'est compréhensible de ressentir cette pression, surtout dans un environnement compétitif. Cependant, maintenir ce rythme au détriment de sa santé n'est pas durable.\n\nJe pourrais proposer de faire un petit exercice maintenant : imaginer sa carrière dans 5 ans s'il continue sur cette voie vs s'il explore d'autres options. Quels seraient les coûts et bénéfices de chaque scénario ?\n\nOu alors l'aider à identifier un petit pas qu'il pourrait faire cette semaine pour reprendre un peu de contrôle, même minime : peut-être bloquer un créneau pour une activité qui lui fait du bien, ou discuter de sa charge avec son manager.\n\nJe dois faire attention à ne pas minimiser ses peurs, mais à l'aider à les examiner de manière réaliste.\n\nJe vais répondre en français bien sûr, dans un ton chaleureux mais direct, comme mon rôle le suggère.\n\nJe commence par résumer ce qu'il m'a dit pour montrer que je comprends, puis je pose des questions pour approfondir.\n\n",
+      "reasoning_content": "Baptiste identifie deux blocages principaux : la perception de la voie M&A comme \"voie royale\" pour la carrière en finance (peur de fermer des portes) et l'égo/comparaison sociale (sentiment d'être un loser par rapport à ses camarades). Il se sent coincé entre ces pressions et son bien-être qui se détériore.\n\nJe dois l'aider à explorer ces croyances et à voir s'il existe des alternatives ou des aménagements. Peut-être commencer par remettre en question l'idée de \"voie royale\" et explorer d'autres chemins en finance ou à proximité. Aussi aborder la comparaison sociale qui est toxique.\n\nJe devrais lui poser des questions pour l'amener à réfléchir à ses valeurs réelles, à ce qui compte vraiment pour lui au-delà du prestige ou de la comparaison. Peut-être aussi explorer des scénarios intermédiaires : pas forcément abandonner M&A complètement, mais peut-être réduire la charge, négocier, explorer des rôles connexes.\n\nJe peux aussi suggérer des exercices concrets : lister les compétences acquises en M&A qui sont transférables, explorer d'autres domaines de la finance qui pourraient l'intéresser, ou même des secteurs complètement différents où ces compétences seraient valorisées.\n\nMais avant tout, valider ses sentiments : c'est compréhensible de ressentir cette pression, surtout dans un environnement compétitif. Cependant, maintenir ce rythme au détriment de sa santé n'est pas durable.\n\nJe pourrais proposer de faire un petit exercice maintenant : imaginer sa carrière dans 5 ans s'il continue sur cette voie vs s'il explore d'autres options. Quels seraient les coûts et bénéfices de chaque scénario ?\n\nOu alors l'aider à identifier un petit pas qu'il pourrait faire cette semaine pour reprendre un peu de contrôle, même minime : peut-être bloquer un créneau pour une activité qui lui fait du bien, ou discuter de sa charge avec son manager.\n\nJe dois faire attention à ne pas minimiser ses peurs, mais à l'aider à les examiner de manière réaliste.\n\nJe vais répondre en français bien sûr, dans un ton chaleureux mais direct, comme mon rôle le suggère.\n\nJe commence par résumer ce qu'il m'a dit pour montrer que je comprends, puis je pose des questions pour approfondir.\n\n"
+    }
+  ],
+  "tool_calls": [],
+  "context_messages": []
+}

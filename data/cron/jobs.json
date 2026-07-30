@@ -1,0 +1,50 @@
+{
+  "jobs": [
+    {
+      "id": "671164ef9041",
+      "name": "Scan emplois finance Paris/London/NYC Baptiste",
+      "prompt": "Recherche les derni\u00e8res offres d'emploi en finance pertinentes pour Baptiste. Suivre imp\u00e9rativement le skill baptiste-job-search charg\u00e9 en contexte.\n\n**OBLIGATOIRE : produire exactement 4 offres par localit\u00e9 (Paris, London, NYC) = 12 offres au total.**\n\nPour chaque localit\u00e9, chercher :\n- Stages Private Equity (priorit\u00e9 haute)\n- Stages M&A / Investment Banking\n- Stages Hedge Fund\n- Off-cycle internships\n\nSources \u00e0 scanner syst\u00e9matiquement :\n- eFinancialCareers.fr / .com\n- Rothschild & Co careers (rothschildandco.com)\n- The Trackr EU finance (app.the-trackr.com/eu-finance/off-cycle-internships)\n- The Trackr US finance (app.the-trackr.com/us-finance/)\n- Jobortunity (jobortunity.ai/en/trackers/eu-finance-off-cycle)\n- Blackstone careers (blackstone.com/careers/students)\n- KKR careers (kkr.com/careers)\n- Ardian (ardian.com/join-us)\n- Indeed.fr (requ\u00eates en fran\u00e7ais)\n- Jefferies (jefferies.tal.net)\n\nFormat de sortie (en fran\u00e7ais) :\n\n## \ud83c\uddeb\ud83c\uddf7 PARIS\n1. **Titre** \u2014 Entreprise\n   - D\u00e9tails : dur\u00e9e, date, deadline si applicable\n   - Source : URL\n\n## \ud83c\uddec\ud83c\udde7 LONDON\n1. **Titre** \u2014 Entreprise\n   ...\n\n## \ud83c\uddfa\ud83c\uddf8 NEW YORK\n1. **Titre** \u2014 Entreprise\n   ...\n\n**R\u00e8gles :**\n- Privil\u00e9gier les offres avec d\u00e9but janv-juil 2027\n- Marquer les deadlines imminentes avec \u26a0\ufe0f\n- Limiter \u00e0 4 offres par ville, les plus pertinentes en premier\n- Si moins de 4 offres disponibles pour une ville, l'indiquer explicitement\n- Ne PAS r\u00e9p\u00e9ter les offres d\u00e9j\u00e0 trouv\u00e9es dans les scans pr\u00e9c\u00e9dents (v\u00e9rifier les fichiers references/scan-*.md)",
+      "skills": [
+        "baptiste-job-search"
+      ],
+      "skill": "baptiste-job-search",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * *",
+        "display": "0 10 * * *"
+      },
+      "schedule_display": "0 10 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 25
+      },
+      "enabled": false,
+      "state": "paused",
+      "paused_at": "2026-07-11T10:16:08.049913+00:00",
+      "paused_reason": null,
+      "created_at": "2026-05-30T16:44:11.449178+00:00",
+      "next_run_at": "2026-07-12T10:00:00+00:00",
+      "last_run_at": "2026-07-11T10:06:31.505201+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003837569372",
+        "chat_name": "Dad & Pluton",
+        "thread_id": "4"
+      },
+      "enabled_toolsets": null,
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-07-11T15:06:14.322861+00:00"
+}
