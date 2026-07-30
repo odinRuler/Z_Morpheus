@@ -1,4 +1,4 @@
-# Two-container Docker Compose: Hermes Agent (Pluton) + Hermes WebUI
+# Two-container Docker Compose: Hermes Agent (Morpheus) + Hermes WebUI
 #
 # QUICK START:
 #   docker compose -f docker-compose.two-container.yml up -d
@@ -46,9 +46,9 @@
 #     echo "GID=$(id -g)" >> .env
 
 services:
-  hermes-pluton:
+  hermes-morpheus:
     image: nousresearch/hermes-agent:main
-    container_name: pluton
+    container_name: morpheus
     command: gateway run
     ports:
       # Gateway API — exposed on localhost only.
@@ -87,18 +87,18 @@ services:
       # - PATH=/opt/hermes/.venv/bin:/opt/data/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.pluton.rule=Host(`pluton.odin.uvw.fr`)"
-      - "traefik.http.routers.pluton.entrypoints=web"
-      - "traefik.http.services.pluton.loadbalancer.server.port=9119"
+      - "traefik.http.routers.morpheus.rule=Host(`morpheus.odin.uvw.fr`)"
+      - "traefik.http.routers.morpheus.entrypoints=web"
+      - "traefik.http.services.morpheus.loadbalancer.server.port=9119"
     restart: unless-stopped
     networks:
       - hermes-net
 
   hermes-webui:
     image: ghcr.io/nesquena/hermes-webui:latest
-    container_name: pluton-webui
+    container_name: morpheus-webui
     depends_on:
-      - hermes-pluton
+      - hermes-morpheus
     ports:
       - "8788:8787"
     volumes:

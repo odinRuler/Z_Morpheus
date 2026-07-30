@@ -76,4 +76,4 @@ ajouter dans le path ~/.local/bin/hermes
 
 ## Architecture
 
-Faire un ODIN séparé. de pluton
+Faire un ODIN séparé. de morpheus
